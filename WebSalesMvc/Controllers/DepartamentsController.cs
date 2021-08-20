@@ -149,5 +149,10 @@ namespace WebSalesMvc.Controllers
         {
             return _context.Departament.Any(e => e.Id == id);
         }
+
+        public void Teste(int id)
+        {
+            var consulta = _context.Departament.Where(x => x.Id == id).ToList();
+        }
     }
 }
