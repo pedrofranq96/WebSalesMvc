@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using WebSalesMvc.Models;
 
-namespace WebSalesMvc.Data
+namespace WebSalesMvc.Models
 {
     public class WebSalesMvcContext : DbContext
     {
